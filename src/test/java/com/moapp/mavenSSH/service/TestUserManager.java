@@ -25,9 +25,9 @@ public class TestUserManager {
 	@Test
 	public void save() {
 		User user = new User();
-		user.setUserName("forist");
-		user.setPassword("abcd");
-		user.setGender(0);
+		user.setUserName("wendy");
+		user.setPassword("butterfly");
+		user.setGender(1);
 		Integer id = userManager.save(user);
 		JSON.toJSONString(id);
 		System.out.println(id);

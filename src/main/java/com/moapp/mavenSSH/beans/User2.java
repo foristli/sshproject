@@ -19,7 +19,7 @@ public class User2 {
 		return age;
 	}
 	public void setAge(int age) {
-		this.age = age;
+		this.age = age*2;
 	}
 	
 	
