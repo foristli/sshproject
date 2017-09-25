@@ -2,10 +2,11 @@ package com.moapp.mavenSSH.service;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.moapp.mavenSSH.beans.User;
 
-@Service("mytest")
+@Transactional
 public interface UserManager {
 	User load(Integer id);
 	User get(Integer id);
